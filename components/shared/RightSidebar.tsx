@@ -1,11 +1,12 @@
-import React from 'react'
+import { currentUser } from "@clerk/nextjs";
 
-const RightSidebar = () => {
+import UserCard from "../cards/UserCard";
+function RightSidebar(){
   return (
-    <div>
-      
-    </div>
-  )
+    <section className='custom-scrollbar rightsidebar'>
+      Right
+    </section>
+  );
 }
 
-export default RightSidebar
+export default RightSidebar;
